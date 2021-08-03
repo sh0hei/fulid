@@ -22,5 +22,6 @@ javacOptions ++= Seq("-source", "8", "-target", "8")
 
 // Dependencies
 libraryDependencies ++= Seq(
+  "org.wvlet.airframe" %% "airframe-ulid" % "21.7.0"
 )
 
